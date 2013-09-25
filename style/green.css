@@ -1,0 +1,47 @@
+.navigation li.active a {
+	color:#60a65b !important;
+}
+.icon-nav {
+	color:#60a65b;
+}
+.breaker .icon {
+	background:url(green/bg_breaker.png) no-repeat left top;
+}
+.breaker span {
+	background:#60a65b;
+}
+.button {
+	background:#60a65b;
+}
+.button.reverse:hover, .button.reverse:active {
+	background:#60a65b;
+}
+.flex-control-paging li a:hover {
+	background:#60a65b;
+}
+.flex-control-paging li a.flex-active {
+	background:#60a65b;
+}
+.services {
+	background:#60a65b;
+}
+.item-thumbs .hover-wrap .overlay-img, .image-wrap .hover-wrap .overlay-img{
+	background:#60a65b;
+}
+.fancybox-close:hover, .fancybox-nav:hover span{
+	background-color:#60a65b;
+}
+
+/* Retina Display */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+ 	only screen and (-moz-min-device-pixel-ratio: 2),
+  	only screen and (-o-min-device-pixel-ratio: 2/1),
+  	only screen and (min-device-pixel-ratio: 2),
+  	only screen and (min-resolution: 2dppx) {
+		
+	.breaker .icon {
+		background:url(green/bg_breaker@2x.png) no-repeat;
+		background-size:14px 14px;
+	}
+}

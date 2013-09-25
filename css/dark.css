@@ -1,0 +1,114 @@
+a{
+	color:#fff;
+}
+a:hover{
+	color:#bbb;
+}
+body{
+	background:#333;
+	color:#bbb;
+}
+.wrap{
+	background:#43484f;
+}
+.header {
+	background: rgb(67,72,79);
+	background: rgba(67,72,79,.88);
+}
+.navigation li a {
+	color:#bbb;
+}
+.navigation li a:hover {
+	color:#fff;
+}
+.showcase {
+	background-color: #a2a4a7;
+}
+.showcase .image {
+	background:rgb(67,72,79);
+	background:rgba(67,72,79,.3);
+}
+.showcase .image img {
+	background:#a2a4a7;
+}
+.page-heading h2 {
+	color:#fff;
+}
+.page-banner {
+	background-color:#a2a4a7;
+}
+#work {
+	border-bottom:1px solid #333;
+}
+.team-about {
+	color:#bbb;
+}
+.team h3 {
+	color:#fff;
+}
+.blog-area {
+	background-color: #eee;
+}
+.service-content h4 {
+	color:#fff;
+}
+.map {
+	background:#a2a4a7;
+}
+.contact-info .info-box {
+	background:#a2a4a7;
+	color:#555;
+}
+.contact-info .info-box address {
+	color:#555;
+}
+.contact-info .info-box a {
+	color:#555;
+}
+.contact-info .info-box a:hover {
+	color:#333;
+}
+.footer {
+	background:#333;
+}
+.footer .social li a:hover {
+	color:#fff;
+}
+h3.post-title {
+	border-bottom:1px solid #333;
+	color:#fff;
+}
+.post .page-heading h2{
+	color:#fff;
+}
+.fancybox-skin {
+	background: #43484f;
+	color: #bbb;
+}
+.fancybox-close {
+	background-color: #43484f;
+}
+
+.fancybox-close i {
+	color: #fff;
+}
+.fancybox-nav span {
+	background-color: #43484f;
+}
+
+.fancybox-prev span i {
+	color: #fff;
+}
+.fancybox-next span i {
+	color: #fff;
+}
+.fancybox-title-float-wrap .child {
+	color: #bbb;
+}
+.fancybox-title-outside-wrap {
+	color: #bbb;
+}
+.fancybox-title-over-wrap {
+	color: #fff;
+	background: #43484f;
+}

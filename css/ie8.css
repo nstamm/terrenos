@@ -1,0 +1,7 @@
+.item-thumbs .hover-wrap {
+	display:none;
+}
+.item-thumbs:hover .hover-wrap,
+.item-thumbs.active .hover-wrap {
+	display:block;
+}

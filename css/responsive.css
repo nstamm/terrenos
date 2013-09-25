@@ -1,0 +1,486 @@
+/* Responsive CSS */
+@media handheld, only screen and (max-width: 767px) {
+body {
+	-webkit-text-size-adjust: none;
+}
+.row, body, .container {
+	width: 100%;
+	min-width: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
+	width: auto;
+	float: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.last{
+	padding-right:20px;
+}
+}
+@media only screen and (min-width: 959px) and (max-width: 1180px) {
+	
+	.showcase .caption span {
+	height: 60px;
+	position: absolute;
+	
+	top: 86%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin: 0 auto;
+	z-index: 100;
+}
+
+.center { text-align:center;}
+
+.showcase .caption h2 {
+font-size: 2.3em;	
+font-weight: 600;
+line-height: 1em;
+color: #fff9d6;
+text-shadow: 2px 1px 4px rgba(22, 22, 22, 1);
+
+
+}
+.showcase img {
+
+min-height: 100%;
+
+	
+}
+}
+
+
+/* For iPad Portrait Mode */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+.showcase .caption span {
+	height: 60px;
+	position: absolute;
+	
+	top: 75%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin: 0 auto;
+	z-index: 100;
+}
+
+.center { text-align:center;}
+
+.showcase .caption h2 {
+font-size: 1.7em;	
+font-weight: 600;
+line-height: 1em;
+color: #fff9d6;
+text-shadow: 2px 1px 4px rgba(22, 22, 22, 1);
+
+
+}
+.showcase img {
+
+min-height: 100%;
+
+	
+}
+
+.header-button {
+	display:none;
+}
+.header .sixcol {
+	position:relative;
+	z-index:7;
+	padding-left:0;
+	padding-top:22px;
+	width:100%;
+}
+.navigation {
+	display:block;
+}
+/*.navigation {
+	position:relative;
+	margin:40px 0 0 0;
+	padding:0 !important;
+	float:left;
+	width:100%;
+}
+.navigation li{
+	margin:0;
+	width:100%;
+	border-bottom:1px solid #eee;
+}
+/*.navigation li a{
+	color:#333;
+	width:100%;
+	line-height:50px;
+	display:block;
+	padding:0;
+	text-align:center;
+}*/
+.navigation li a:hover {
+	color:#000;
+}
+.icon-nav {
+	display:none;
+}
+.logo {
+	height:44px;
+	min-height:44px;
+	position:absolute;
+	width:100% !important;
+	text-align:center;
+	z-index:6;
+	padding:0;
+	top:16px;
+	left:0;
+}
+.icon-nav {
+	display:none;
+}
+.showcase .caption h2 {
+	padding-top:125px;
+	font-size:40px;
+}
+.showcase .image {
+	width:682px;
+	margin-left:-364px;
+}
+.services {
+	min-height:243px;
+}
+#comments li {
+	width:728px;
+}
+#comments li ul li {
+	width:668px;
+}
+.respond .input {
+	width:323px;
+}
+.respond .textarea {
+	width:317px;
+	min-width:317px;
+	max-width:317px;
+}
+.respond .button {
+	width:349px;
+}
+
+}
+
+/* For iPhone Portrait Mode */
+@media only screen and (min-width: 320px) and  (max-width: 767px) {
+
+.showcase .caption span {
+	height: 60px;
+	position: absolute;
+	
+	top: 75%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin: 0 auto;
+	z-index: 100;
+}
+
+.center { text-align:center;}
+
+.showcase .caption h2 {
+font-size: 1.7em;	
+font-weight: 600;
+line-height: 1em;
+color: #fff9d6;
+text-shadow: 2px 1px 4px rgba(22, 22, 22, 1);
+
+
+}
+.showcase img {
+
+min-height: 100%;
+
+	
+}
+.header-button {
+	display:none;
+}
+.header .sixcol {
+	position:relative;
+	z-index:7;
+	padding-left:0;
+	padding-top:22px;
+	width:100%;
+}
+.navigation {
+	display:block;
+}
+.navigation {
+    display:none;
+	position:relative;
+	margin:40px 0 0 0;
+	padding:0 !important;
+	float:left;
+	width:100%;
+}
+.navigation li{
+	margin:0;
+	width:100%;
+	border-bottom:1px solid #eee;
+}
+.navigation li a{
+	color:#333;
+	width:100%;
+	line-height:50px;
+	display:block;
+	padding:0;
+	text-align:center;
+}
+.navigation li a:hover {
+	color:#000;
+}
+.icon-nav {
+	display:block;
+}
+.header .twocol{
+	padding:0;
+}
+.logo {
+	height:44px;
+	min-height:44px;
+	position:absolute;
+	width:100% !important;
+	text-align:center;
+	z-index:6;
+	padding:0;
+	top:16px;
+	left:0;
+}
+.page-heading .breaker {
+	margin-bottom:15px;
+}
+.showcase {
+	margin-bottom:25px;
+}
+.showcase .image {
+	display:none;
+}
+.page-section{
+	padding:60px 0;
+}
+.page-heading h2 {
+	font-size:38px;
+	line-height:normal;
+}
+#thumbs .threecol{
+	padding:0;
+	display:block;
+	float:none;
+	margin-left:20px;
+	margin-right:20px;
+}
+.team {
+	padding-bottom:40px;
+}
+.team-about {
+	min-height:auto;
+	margin-bottom:20px;
+}
+.blog-area h3 {
+	padding:60px 0 30px 0;
+	font-size:20px;
+	line-height:normal;
+}
+.team p {
+	padding:0 0 10px 0;
+}
+.service-slider {
+	margin-bottom:30px;
+}
+.service-content .fourcol {
+	margin-bottom:30px;
+}
+.contact-info .info-box{
+	margin-bottom:30px;
+}
+.footer{
+	padding:40px 0;
+}
+.footer-left {
+	margin-bottom:30px;
+	text-align:center;
+}
+.footer .social {
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.footer .social li{
+	display:inline-block;
+	float:none;
+}
+.footer .social li:first-child{
+	margin-left:0;
+}
+#container {
+	padding:27px 0 0 0;
+}
+.post {
+	padding-bottom:26px;
+}
+.post h3 {
+	font-size:18px;
+}
+.post .page-heading {
+	padding:30px 0;
+}
+.post .page-heading h2 {
+	font-size:38px;
+	margin-bottom:15px;
+}
+.post .page-heading .breaker {
+	margin-bottom:15px;
+}
+.post .page-heading .post-meta{
+	padding:0;
+}
+#comments ol {
+	width:300px;
+	padding-top:0;
+}
+#comments li {
+	width:300px;
+}
+#comments li ul {
+	padding-left:0;
+}
+#comments li ul li {
+	width:280px;
+	padding:10px;
+}
+.respond .sixcol {
+	width:100%;
+	margin:0 0 30px 0;
+}
+.respond .fourcol {
+	width:100%;
+	margin:0;
+}
+.respond .button {
+	width:300px;
+}
+.share {
+	padding-left:0px;
+}
+.share ul {
+	padding:10px;
+}
+.share h4 {
+	padding-left:0;
+	text-align:center;
+}
+
+}
+
+/* For iPhone Landscape Mode */
+@media only screen and (min-width: 440px) and (max-width: 767px) {
+
+.showcase .caption span {
+	height: 60px;
+	position: absolute;
+	
+	top: 85%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin: 0 auto;
+	z-index: 100;
+}
+
+.center { text-align:center;}
+
+.showcase .caption h2 {
+font-size: 1.7em;	
+font-weight: 600;
+line-height: 1em;
+color: #fff9d6;
+text-shadow: 2px 1px 4px rgba(22, 22, 22, 1);
+
+
+}
+.showcase img {
+
+min-height: 100%;
+
+	
+}
+
+#container {
+	padding:37px 0 0 0;
+}
+.post {
+	padding-bottom:36px;
+}
+.post h3 {
+	font-size:18px;
+}
+.post .page-heading {
+	padding:40px 0;
+}
+.post .page-heading h2 {
+	font-size:38px;
+}
+.post .page-heading .post-meta {
+	font-size:15px;
+	padding-bottom:0;
+}
+#comments ol {
+	width:480px;
+	padding:0;
+}
+#comments li {
+	width:440px;
+}
+#comments li ul {
+	padding-left:0;
+}
+#comments li ul li {
+	width:410px;
+}
+.respond .sixcol {
+	width:100%;
+	margin:0 0 40px 0;
+}
+.respond .fourcol {
+	width:100%;
+	margin-bottom:10px;
+}
+.respond .button {
+	width:440px;
+}
+.share {
+	padding-left:9px;
+}
+.share h4 {
+	padding-left:0;
+	text-align:center;
+}
+.share ul {
+	margin-left:60px;
+}
+}
+
+/* Retina Display */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+ 	only screen and (-moz-min-device-pixel-ratio: 2),
+  	only screen and (-o-min-device-pixel-ratio: 2/1),
+  	only screen and (min-device-pixel-ratio: 2),
+  	only screen and (min-resolution: 2dppx) {
+		
+		
+}
